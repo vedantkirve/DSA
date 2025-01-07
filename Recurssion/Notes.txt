@@ -1,0 +1,44 @@
+Make IP smaller
+
+
+step1 = Create a Recursive Tree (soul of Recurrsion)
+
+
+Recurrsion  is present -  (choices and decisions)
+
+----------------------------------------------------------------
+example  str = "abc"
+
+so basicalled for tree of op and ip where reduce the IP
+
+the lead node will have the ans
+
+                            abc
+
+    (a not taken)op ip                  (a is take) op ip
+                ""  bc                  "a"  bc
+    b is not taken ---- b is not taken
+
+    "" c                "b" c
+
+
+----------------------------------------------------------------
+
+approached 
+
+IBH - (INDUCTION BASE HYPOTHESIS) - TREE AND LINKED LIST USEFULL
+
+print 1- n numbers
+
+
+print(n){
+    if(n===1){ --> BASE
+        return
+    }
+
+    print(n-1);   --> HYPOTHESIS
+
+    console.log(n) ---> INDUCTION
+}
+
+

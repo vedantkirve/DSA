@@ -1,0 +1,9 @@
+Find the values of i and j:
+
+i and j define the segment of the array or range of matrices you're currently solving for. For example, in MCM, they represent the indices of the matrices in the chain you're considering for multiplication.
+Define the base condition (i >= j):
+
+The base condition typically occurs when the range becomes invalid or trivial, such as when only one matrix is left (i == j), or the range collapses (i > j). In such cases, no multiplication is needed, and the cost is 0.
+Move k from i to j:
+
+k is the partition point where you split the range [i, j] into two subproblems: [i, k] and [k+1, j]. You recursively solve these subproblems and combine their results, often adding the cost of multiplying the resulting matrices.

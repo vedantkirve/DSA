@@ -1,0 +1,10 @@
+0/1 
+
+1. Choices should be there 
+2. Optimal like max profit , max loss
+3. Base Condition
+4. Reduce the input to the recussive function
+
+5. Now by memoization we reduce the unwatned recussive calls
+
+https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
