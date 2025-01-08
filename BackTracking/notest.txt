@@ -1,0 +1,10 @@
+Back Tracking is usualy -> Recussion + controlled Recussion + pass by reference
+
+Identifications -> usualy asked to find all the Combinations
+
+Concept - Pass by value and pass by reference
+
+Key Points:
+Everything in Python is passed by object reference.
+This means the reference to the object is passed to the function, not the actual value.
+Whether the function can modify the original object depends on whether the object is mutable or immutable.
