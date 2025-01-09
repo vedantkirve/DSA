@@ -8,3 +8,13 @@ Key Points:
 Everything in Python is passed by object reference.
 This means the reference to the object is passed to the function, not the actual value.
 Whether the function can modify the original object depends on whether the object is mutable or immutable.
+
+
+Identifications
+
+1. choices + Decisions
+2. All Combinations
+3. Controlled Recussion
+4. Number of choices
+5. Size of Constraints
+6. Dont be greedy
