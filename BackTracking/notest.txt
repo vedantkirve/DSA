@@ -18,3 +18,20 @@ Identifications
 4. Number of choices
 5. Size of Constraints
 6. Dont be greedy
+
+
+
+pseudo Code
+
+
+void solve(&v) -> pass by reference
+    if isSolve() == True: -> Base Condition
+        print or return  -> whatever is the condition
+    
+    for choice in choices:
+        if isValid == True:
+            change the varibale v 
+            then again call the function solve
+
+            now return changes in v
+

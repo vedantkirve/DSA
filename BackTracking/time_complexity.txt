@@ -1,0 +1,3 @@
+Time complexity of recursive tree
+
+TC = work done by one node  * no of nodes
