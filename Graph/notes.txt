@@ -1,0 +1,12 @@
+🎯 Minimum Graph Prep Checklist (print this mentally)
+
+If you can do these without Googling, you’re ready:
+
+
+TOPICS-> 
+1.DFS on grid
+2.BFS on grid
+3.Topological Sort -> InOrder concept
+4.Union Merge
+
+
