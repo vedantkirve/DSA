@@ -1,0 +1,29 @@
+Relationships:
+
+Parent index = (i - 1) / 2
+Left child = 2i + 1
+Right child = 2i + 2
+
+_______________________________________
+
+🔽 Min-Heap (smallest element on top)
+Criteria (this is ALL you need to remember)
+
+Every parent node is ≤ its children
+
+The smallest element is always at the root
+
+Children can be anything as long as they are not smaller than the parent
+
+The tree is not sorted, only locally ordere
+
+_______________________________________
+
+🔼 Max-Heap (largest element on top)
+Criteria
+
+Every parent node is ≥ its children
+
+The largest element is always at the root
+
+Again: only local order matters, not global sorting

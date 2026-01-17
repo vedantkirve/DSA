@@ -43,6 +43,11 @@ class Heap<T> {
         return top;
     }
 
+    //  [10, 15, 30, 20]
+
+    // [4, 5, 8, 2]
+    //  [3,4,2,5]
+
     private bubbleDown(): void {
         let idx = 0;
         const length = this.data.length;
