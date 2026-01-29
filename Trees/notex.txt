@@ -1,0 +1,32 @@
+DFS 
+
+The Golden Memory Trick (One Line That Never Fails)
+
+PRE – IN – POST = position of ROOT
+
+1.PREorder → Root before children
+    NODE
+    Left
+    Right
+
+2.INorder → Root in between children
+    Left
+    NODE
+    Right
+
+3.POSTorder → Root after children
+    Left
+    Right
+    
+
+🔑 One Super Simple Shortcut (Exam-proof)
+
+Ask yourself ONE question:
+
+Does the node depend on its children?
+
+YES → Postorder
+NO → Preorder
+
+If it’s a BST & ordering matters → Inorder
+
